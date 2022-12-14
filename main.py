@@ -16,12 +16,10 @@ while True:
         motor_L.run_forever(speed_sp = 50)
 
     elif  9 < color_value <= 15:
-        print("LEWO")
         motor_R.run_forever(speed_sp = -50)
         motor_L.run_forever(speed_sp = 0)
 
     elif 39 <= color_value <= 45:
-        print("PRAWO")
         motor_L.run_forever(speed_sp = -50)
         motor_R.run_forever(speed_sp = 0)
 
